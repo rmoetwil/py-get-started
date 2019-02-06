@@ -11,6 +11,7 @@ Python 2, Python 3? Which packages? How to switch between environments? Environm
 
 To name a few:
 - [Anaconda](https://www.anaconda.com/distribution/)
+- [Miniconda](https://conda.io/en/latest/miniconda.html)
 - can't think of the others anymore ;-)
 - virtualenv
 
@@ -43,3 +44,15 @@ source my-new-environment/bin/activate
 ```
 
 Deactivate your environment is accomplished by just executing `deactivate` in the terminal.
+
+
+# Jupyter
+To be able to run Jupyter notebooks install Jupyter:
+```
+python3 -m pip install jupyter
+```
+
+Execute the following to run a jupyter notebook called `notebook`.
+```
+jupyter notebook
+```
