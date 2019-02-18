@@ -45,6 +45,18 @@ source my-new-environment/bin/activate
 
 Deactivate your environment is accomplished by just executing `deactivate` in the terminal.
 
+### Freeze and Restore dependencies
+Once you have installed some dependencies you might want to share your project.
+To create a list of dependencies run:
+```
+pip freeze --local > requirements.txt
+```
+
+To install a fresh environment with the dependencies listed run:
+```
+pip install -r requirements.txt
+```
+
 
 # Jupyter
 To be able to run Jupyter notebooks install Jupyter:
