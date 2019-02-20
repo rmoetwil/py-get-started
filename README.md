@@ -57,6 +57,9 @@ To install a fresh environment with the dependencies listed run:
 pip install -r requirements.txt
 ```
 
+### Where to find Python packages
+Python packages can be found [here](https://pypi.org/).
+
 
 # Jupyter
 To be able to run Jupyter notebooks install Jupyter:
