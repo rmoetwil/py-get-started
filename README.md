@@ -71,3 +71,5 @@ Execute the following to run a jupyter notebook called `notebook`.
 ```
 jupyter notebook
 ```
+
+A good resource for tips and tricks can be found [here](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/).
