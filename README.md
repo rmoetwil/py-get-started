@@ -61,6 +61,12 @@ pip install -r requirements.txt
 Python packages can be found [here](https://pypi.org/).
 
 
+### Some standard packages
+
+- Code auditing with [pylama](https://github.com/klen/pylama).
+- Testing with [pytest](https://docs.pytest.org/en/latest/index.html).
+
+
 # Jupyter
 To be able to run Jupyter notebooks install Jupyter:
 ```
