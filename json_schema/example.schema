@@ -1,0 +1,31 @@
+{
+    "description": "A schema validation example",
+    "examples": [
+        {
+            "name": "Simon Says",
+            "email": "simon.says@something.com",
+            "group": "ALL012345"
+        }
+    ],
+    "required": [
+        "name",
+        "email",
+        "group"
+    ],
+    "title": "An example schema",
+    "properties": {
+        "name": {
+            "type": "string"
+        },
+        "email": {
+            "type": "string",
+            "format": "email"
+        },
+        "group": {
+            "type": "string",
+            "pattern": "^ALL[0-9]{6}$"
+
+        }
+    },
+    "additionalProperties": false
+}
